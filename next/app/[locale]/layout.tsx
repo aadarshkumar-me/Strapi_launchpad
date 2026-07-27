@@ -31,6 +31,15 @@ export async function generateMetadata({
 
   const seo = pageData.seo;
   const metadata = generateMetadataObject(seo);
+  metadata.metadataBase = new URL(
+    process.env.WEBSITE_URL || 'http://localhost:3000'
+  );
+  metadata.openGraph = {
+    ...metadata.openGraph,
+    type: 'website',
+    siteName: 'LaunchPad',
+    locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+  };
   return metadata;
 }
 
