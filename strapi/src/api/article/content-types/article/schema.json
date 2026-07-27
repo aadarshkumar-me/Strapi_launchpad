@@ -60,12 +60,6 @@
         }
       }
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "dynamic_zone": {
       "type": "dynamiczone",
       "pluginOptions": {
