@@ -37,7 +37,7 @@ Track your progress as you complete each step.
 
 ### Database URL (Save this!):
 ```
-[PASTE YOUR DATABASE URL HERE]
+postgresql://strapi:XxLTkvGOMwu3hTU59WOS1oJzEWIADimn@dpg-d9jk5drrjlhs738l1t8g-a/strapi_i75z
 ```
 
 ### Status: ⏳ PENDING
@@ -64,7 +64,7 @@ Track your progress as you complete each step.
 
 ```
 DATABASE_CLIENT=postgres
-DATABASE_URL=[PASTE YOUR DATABASE URL HERE]
+DATABASE_URL=postgresql://strapi:XxLTkvGOMwu3hTU59WOS1oJzEWIADimn@dpg-d9jk5drrjlhs738l1t8g-a/strapi_i75z
 DATABASE_SSL=true
 DATABASE_SSL_REJECT_UNAUTHORIZED=false
 HOST=0.0.0.0
@@ -90,7 +90,7 @@ PREVIEW_SECRET=preview_secret
 
 ### Strapi URL (Save this!):
 ```
-https://[YOUR-STRAPI-URL]
+https://strapi-launchpad.onrender.com
 ```
 
 ### Status: ⏳ PENDING
@@ -110,12 +110,12 @@ https://[YOUR-STRAPI-URL]
 - [ ] Add environment variables:
 
 ```
-NEXT_PUBLIC_API_URL=https://[YOUR-STRAPI-URL]
+NEXT_PUBLIC_API_URL=https://strapi-launchpad.onrender.com
 WEBSITE_URL=https://launchpad.vercel.app
 PREVIEW_SECRET=preview_secret
 ```
 
-(Replace `[YOUR-STRAPI-URL]` with your actual Strapi URL from Step 3)
+(Replace `https://strapi-launchpad.onrender.com` with your actual Strapi URL from Step 3)
 
 - [ ] Click **Deploy**
 - [ ] Wait for deployment (3-5 minutes)
@@ -127,7 +127,7 @@ PREVIEW_SECRET=preview_secret
 
 ### Vercel URL (Save this!):
 ```
-https://[YOUR-VERCEL-URL]
+strapi-launchpad-f4qc2jzz3-aadarshnithin-8336s-projects.vercel.app
 ```
 
 ### Status: ⏳ PENDING
@@ -138,14 +138,14 @@ https://[YOUR-VERCEL-URL]
 ## ✅ STEP 5: Verify Everything Works
 
 ### Test Strapi Backend:
-- [ ] Go to `https://[YOUR-STRAPI-URL]/admin`
+- [ ] Go to `https://strapi-launchpad.onrender.com/admin`
 - [ ] Log in with your admin account
 - [ ] See your products and articles
-- [ ] Go to `https://[YOUR-STRAPI-URL]/api/global`
+- [ ] Go to `https://strapi-launchpad.onrender.com/api/global`
 - [ ] Should return JSON data
 
 ### Test Next.js Frontend:
-- [ ] Go to `https://[YOUR-VERCEL-URL]`
+- [ ] Go to `https://strapi-launchpad-f4qc2jzz3-aadarshnithin-8336s-projects.vercel.app`
 - [ ] Homepage should load
 - [ ] Click "Blog" - should show articles
 - [ ] Click "Products" - should show products
@@ -185,17 +185,17 @@ https://[YOUR-VERCEL-URL]
 
 ### Database URL:
 ```
-[SAVE HERE]
+postgresql://strapi:XxLTkvGOMwu3hTU59WOS1oJzEWIADimn@dpg-d9jk5drrjlhs738l1t8g-a/strapi_i75z
 ```
 
 ### Strapi URL:
 ```
-[SAVE HERE]
+https://strapi-launchpad.onrender.com
 ```
 
 ### Vercel URL:
 ```
-[SAVE HERE]
+https://strapi-launchpad-f4qc2jzz3-aadarshnithin-8336s-projects.vercel.app
 ```
 
 ### Strapi Admin Email:
